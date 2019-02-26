@@ -1,0 +1,53 @@
+8 bits
+--------
+a2r $r
+r2a $r
+
+lf $r
+li $r
+st $r
+
+cvt $r
+
+sh $r
+slt $r
+
+
+add $r
+sub $r
+mul $r
+div $r
+
+not $r
+xor $r
+and $r
+or $r
+
+jr $r
+
+--------
+13 + 5 bit padded
+--------
+jp8 imm8
+
+pre imm8
+sys imm8
+
+--------
+16 bits
+--------
+cf8 $r, imm8
+ci8 $r, imm8
+jnz8 $r, imm8
+jz8 $r, imm8
+
+
+--------
+Macros
+--------
+cf $r, imm16 => pre imm8, cf8 $r, imm8
+ci $r, imm16 => pre imm8, ci8 $r, imm8
+jnz $r, addr => pre imm8, jnz8 $r, imm8
+jz $r, addr => pre imm8, jz8 $r, imm8
+
+jp addr => pre imm8, jp8 imm8
