@@ -1,3 +1,6 @@
 [submodule "hw3"]
 	path = hw3
 	url = https://github.com/TheRobotCarlson/EE480-HW3
+[submodule "hw4"]
+	path = hw4
+	url = https://github.com/bfwelo/CPE480-Assignment-3.git
