@@ -4,3 +4,6 @@
 [submodule "hw4"]
 	path = hw4
 	url = https://github.com/bfwelo/CPE480-Assignment-3.git
+[submodule "hw5"]
+	path = hw5
+	url = https://github.com/camden-penn/TACKY_Cached
